@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Task_4 {
     public static void main(String[] args) {
         try {
-            File file = new File("duomenys.txt");
+            File file = new File("Task4_Input/duomenys.txt");
             Scanner sc = new Scanner(file);
 
             int n = sc.nextInt();
